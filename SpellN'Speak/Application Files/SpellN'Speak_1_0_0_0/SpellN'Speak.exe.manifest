@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SpellN'Speak.exe" version="1.0.0.0" publicKeyToken="4dc7e30858f4e84d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SpellN'Speak" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SpellN'Speak.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SpellN'Speak.exe" size="83880">
+      <assemblyIdentity name="SpellN'Speak" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0iz5M0rPsEtvdjNdDmvjk4KCs3Ch4T/GG0LK7Hz9llo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SpellN'Speak.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rO4mjoMPTzC1RdE+BMvf0lfywGmtOsKfE96n+SRa584=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LIAMPC\Liam" issuerKeyHash="e8e61831f7039a789b8b8825f93dfb835f1cef3d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>c44KScPgaC6hpdosbQ9GnHQiQSbJ8Sgr4ji6YSKskIc=</DigestValue></Reference></SignedInfo><SignatureValue>LzRo79uMSlXan2wAlipzRj4d4gYuO0hVb9wrrWGTHBHsE9RSlLiiLhvbdApnuNg2Ic55L+5ozyBTzWtiE+NUtDsA7AmL2aLb2HI90Y6nVI58PmxlcKuBB7YBUWn+MNxiT2wgMz3zpMHozp1moei+hHEksoSd7HEmtDbNMRoEAAk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vOtC/kTCl7lIkq27efg0EppS9wbtSw0kT/6EGHuQnTYBcihhXZruTqYTShSJ+Vo5gelUtQlK77/6/43V1bn7jQyAWG8Z2OLcqf2uBQrsEbNqQPRP+SaG7BEe4Q7u1ODfZt3GdT/AqhxhoHWCsG4QQVLHhWZdEHvye8iugj93DBE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8790ac2261ba38e22b28f1c9264122749c460f6d2cdaa5a12e68e0c3490a8e73" Description="" Url=""><as:assemblyIdentity name="SpellN'Speak.exe" version="1.0.0.0" publicKeyToken="4dc7e30858f4e84d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LIAMPC\Liam</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>KtXvtym102kb22VDc8w5gfNH0pJfMhj7puFLfPIypQU=</DigestValue></Reference></SignedInfo><SignatureValue>pPMc8oZv3C2XQe9Ri01uaVtZyTknRmPu9Fl2ONPe2siUZuw1KUsivGrFg1dFE9CXp4zKwfuzTBW6Dp+TxBLRJA341vmye+5Zu8x+kz7dW+568x/u9SDZ5dwtDTfK2be2J/K0sz8B9+aleR8aeQ//5JOo1i0xR4O/z7LSNAqZtoc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vOtC/kTCl7lIkq27efg0EppS9wbtSw0kT/6EGHuQnTYBcihhXZruTqYTShSJ+Vo5gelUtQlK77/6/43V1bn7jQyAWG8Z2OLcqf2uBQrsEbNqQPRP+SaG7BEe4Q7u1ODfZt3GdT/AqhxhoHWCsG4QQVLHhWZdEHvye8iugj93DBE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQLiqR3b2Yx5dNvkBhZ4btfTANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYATABJAEEATQBQAEMAXABMAGkAYQBtMB4XDTIyMTAxMTIyNDYwNloXDTIzMTAxMjA0NDYwNlowITEfMB0GA1UEAx4WAEwASQBBAE0AUABDAFwATABpAGEAbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvOtC/kTCl7lIkq27efg0EppS9wbtSw0kT/6EGHuQnTYBcihhXZruTqYTShSJ+Vo5gelUtQlK77/6/43V1bn7jQyAWG8Z2OLcqf2uBQrsEbNqQPRP+SaG7BEe4Q7u1ODfZt3GdT/AqhxhoHWCsG4QQVLHhWZdEHvye8iugj93DBECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBdtOrkJOCs6iGAhFuuc3o+6wuRrxMBMWJDvPM2JDllo/vTVTBz7eEdN0/k/5obEkg+VZ1c6/MW+p3OmFm71WaX9pR0mh/0a9z1U7rOfcohKq016M2qz1hv0v5h3QWyvCylp6AQ0P84pIzspCPJT4D0ZTDYs7ldf/dZ9e6Wo/FIIw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
